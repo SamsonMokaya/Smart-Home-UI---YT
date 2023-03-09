@@ -35,13 +35,16 @@ class SmartDevice extends StatelessWidget {
             Row(
               children: [
                 Expanded(
-                  child: Text(
-                    device,
-                    style: TextStyle(
-                      color:powerOn? Colors.grey[200] : Colors.grey[800],
-                      fontFamily: 'Material Icons',
-                      fontSize: 20,
-                      fontWeight: FontWeight.bold,
+                  child: Padding(
+                    padding: const EdgeInsets.only(left: 14.0),
+                    child: Text(
+                      device,
+                      style: TextStyle(
+                        color:powerOn? Colors.grey[200] : Colors.grey[800],
+                        fontFamily: 'Material Icons',
+                        fontSize: 20,
+                        fontWeight: FontWeight.bold,
+                      ),
                     ),
                   ),
                 ),
