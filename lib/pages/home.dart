@@ -70,7 +70,7 @@ class _HomePageState extends State<HomePage> {
             SizedBox(
               height: padd,
             ),
-            Text("My Smart Devices",
+            Text("Smart Devices",
                 style: TextStyle(
                   color: Colors.grey[800],
                 ))
